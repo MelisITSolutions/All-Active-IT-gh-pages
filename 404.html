@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="UTF-8" />
+    <title>404, Redirecting...</title>
+    <script>
+      // Redirect to index.html while preserving the path
+      const redirectTo = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace('/' + redirectTo.replace(/^\/+/, ''));
+    </script>
   </head>
-  <body></body>
+  <body>
+    <p>no page found, Redirecting...</p>
+  </body>
 </html>
