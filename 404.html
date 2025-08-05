@@ -9,10 +9,6 @@
         var pathname = window.location.pathname || '/';
         var search = window.location.search || '';
         var hash = window.location.hash || '';
-
-        // ✅ Don't redirect the base URL
-        if (pathname === '/' && hash === '') return;
-
         // ✅ Prevent double #/
         if (hash.startsWith('#/')) return;
 
