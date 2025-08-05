@@ -10,13 +10,13 @@
         var search = window.location.search || '';
         var hash = window.location.hash || '';
 
-        // If it's the base URL (just "/"), DO NOT redirect
-        if (pathname === '/' || pathname === '') return;
+        // ✅ Don't redirect the base URL
+        if (pathname === '/' && hash === '') return;
 
-        // If already using hash routing, DO NOT redirect
+        // ✅ Prevent double #/
         if (hash.startsWith('#/')) return;
 
-        // Redirect to hash-based route
+        // ✅ Redirect everything else to #/path
         var newUrl = '/#' + pathname + search + hash;
         window.location.replace(newUrl);
       })();
@@ -59,8 +59,8 @@
     </style>
   </head>
   <body>
-    <h1>404 - Pagina niet gevonden</h1>
+    <h1>Pagina niet gevonden</h1>
     <p>Je wordt doorgestuurd naar de juiste pagina...</p>
-    <a href="/#/">Ga naar Home</a>
+    <a href="/#/login">Ga naar login</a>
   </body>
 </html>
