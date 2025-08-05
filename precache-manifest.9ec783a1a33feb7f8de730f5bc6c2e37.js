@@ -56,15 +56,15 @@ self.__precacheManifest = [
     "url": "/static/media/MTBO.Banner.8a9fa02c.png"
   },
   {
-    "revision": "420e6395cc62f17f225554b35989b98d",
-    "url": "/static/media/Logo All Active IT met tekst licht geel.420e6395.png"
-  },
-  {
     "revision": "a4b0cd1c1fc490c7a01e5e90d806f628",
     "url": "/static/media/Logo All Active IT met tekst wit.a4b0cd1c.png"
   },
   {
-    "revision": "324ba7e483f3686b1c18430d2f9711aa",
+    "revision": "420e6395cc62f17f225554b35989b98d",
+    "url": "/static/media/Logo All Active IT met tekst licht geel.420e6395.png"
+  },
+  {
+    "revision": "e8f9440697a977cfe8c5b5b4e4a879c6",
     "url": "/index.html"
   }
 ];
