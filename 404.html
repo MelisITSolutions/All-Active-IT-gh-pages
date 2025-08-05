@@ -6,18 +6,18 @@
     <meta name="robots" content="noindex" />
     <script>
       (function () {
-        // Get current path, query, and hash
         var pathname = window.location.pathname || '/';
         var search = window.location.search || '';
         var hash = window.location.hash || '';
 
-        // Prevent infinite loop: if already has #/, stop
-        if (window.location.hash.startsWith('#/')) return;
+        // If it's the base URL (just "/"), DO NOT redirect
+        if (pathname === '/' || pathname === '') return;
 
-        // Construct new URL: /#/original-path
+        // If already using hash routing, DO NOT redirect
+        if (hash.startsWith('#/')) return;
+
+        // Redirect to hash-based route
         var newUrl = '/#' + pathname + search + hash;
-
-        // Redirect to hashed route
         window.location.replace(newUrl);
       })();
     </script>
