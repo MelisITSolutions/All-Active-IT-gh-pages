@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/Logo All Active IT met tekst licht geel.420e6395.png"
   },
   {
-    "revision": "85a944f6d378e1d30299ef9df78e90f6",
+    "revision": "8de4e5cd9fadc37cae98e95b8f556b27",
     "url": "/index.html"
   }
 ];
