@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <meta name="robots" content="noindex" />
-    <script>
-      (function () {
-        var pathname = window.location.pathname || '/';
-        var search = window.location.search || '';
-        var hash = window.location.hash || '';
-        // ✅ Prevent double #/
-        if (hash.startsWith('#/')) return;
+   <script>
+  (function () {
+    var pathname = window.location.pathname || '/';
+    var search = window.location.search || '';
+    var hash = window.location.hash || '';
+    if (hash.startsWith('#/')) return;
+    if (pathname === '/404.html') return; // avoid infinite redirect
 
-        // ✅ Redirect everything else to #/path
-        var newUrl = '/#' + pathname + search + hash;
-        window.location.replace(newUrl);
-      })();
-    </script>
+    var newUrl = '/#' + pathname + search + hash;
+    window.location.replace(newUrl);
+  })();
+</script>
+
     <style>
       body {
         font-family: Arial, sans-serif;

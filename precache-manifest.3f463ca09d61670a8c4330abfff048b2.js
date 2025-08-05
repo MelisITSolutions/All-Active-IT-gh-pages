@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6ee45611884878108dcb",
+    "revision": "a7075a6860a72669ecae",
     "url": "/static/css/main.e7f7d693.chunk.css"
   },
   {
-    "revision": "6ee45611884878108dcb",
-    "url": "/static/js/main.122379ff.chunk.js"
+    "revision": "a7075a6860a72669ecae",
+    "url": "/static/js/main.b942ab73.chunk.js"
   },
   {
     "revision": "87e7c156bd216034e521",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/Logo All Active IT met tekst licht geel.420e6395.png"
   },
   {
-    "revision": "8de4e5cd9fadc37cae98e95b8f556b27",
+    "revision": "2c009e702c5d79ecdd37420f432a0564",
     "url": "/index.html"
   }
 ];
