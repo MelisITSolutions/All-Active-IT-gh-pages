@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "b19df9029a1336fbd693",
+    "revision": "007fd3d212f8b4a08476",
     "url": "/static/css/main.e7f7d693.chunk.css"
   },
   {
-    "revision": "b19df9029a1336fbd693",
-    "url": "/static/js/main.904f02b3.chunk.js"
+    "revision": "007fd3d212f8b4a08476",
+    "url": "/static/js/main.8e149ad4.chunk.js"
   },
   {
     "revision": "c8fb4a733ef0f8d697ef",
     "url": "/static/js/runtime~main.448995b9.js"
   },
   {
-    "revision": "983292bc99ffdc4465ff",
-    "url": "/static/css/2.2c3fd4f0.chunk.css"
+    "revision": "b971baa7f0c3eea133cd",
+    "url": "/static/css/2.080e3f70.chunk.css"
   },
   {
-    "revision": "983292bc99ffdc4465ff",
+    "revision": "b971baa7f0c3eea133cd",
     "url": "/static/js/2.818882dc.chunk.js"
   },
   {
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/static/media/primeicons.c0929a1e.woff2"
   },
   {
-    "revision": "062070972fbad0f4fbb3505e6d013a39",
-    "url": "/static/media/primeicons.06207097.woff"
-  },
-  {
     "revision": "acb19296cb26b15dcf42e13c603217f2",
     "url": "/static/media/primeicons.acb19296.ttf"
+  },
+  {
+    "revision": "062070972fbad0f4fbb3505e6d013a39",
+    "url": "/static/media/primeicons.06207097.woff"
   },
   {
     "revision": "1d854e3ab2c37173804a0d1d1af229ee",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/Logo All Active IT met tekst licht geel.420e6395.png"
   },
   {
-    "revision": "b52c156ade0015f45fdbbf5f4ef44bd2",
+    "revision": "51230024ee975b4f31e8186bef9a2026",
     "url": "/index.html"
   }
 ];
