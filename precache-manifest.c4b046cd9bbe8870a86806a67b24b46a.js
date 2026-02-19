@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1b142938c36ef57ae1af",
+    "revision": "565ea606323ebc5ea66a",
     "url": "/static/css/main.e7f7d693.chunk.css"
   },
   {
-    "revision": "1b142938c36ef57ae1af",
-    "url": "/static/js/main.f427b8c2.chunk.js"
+    "revision": "565ea606323ebc5ea66a",
+    "url": "/static/js/main.b3038b95.chunk.js"
   },
   {
     "revision": "c8fb4a733ef0f8d697ef",
@@ -60,15 +60,15 @@ self.__precacheManifest = [
     "url": "/static/media/MTBO.Banner.8a9fa02c.png"
   },
   {
-    "revision": "a4b0cd1c1fc490c7a01e5e90d806f628",
-    "url": "/static/media/Logo All Active IT met tekst wit.a4b0cd1c.png"
-  },
-  {
     "revision": "420e6395cc62f17f225554b35989b98d",
     "url": "/static/media/Logo All Active IT met tekst licht geel.420e6395.png"
   },
   {
-    "revision": "8fa0df6345b18792aa2b02d601ebc2ce",
+    "revision": "a4b0cd1c1fc490c7a01e5e90d806f628",
+    "url": "/static/media/Logo All Active IT met tekst wit.a4b0cd1c.png"
+  },
+  {
+    "revision": "ed3831e9a748dceec88cad5c5e48c2a1",
     "url": "/index.html"
   }
 ];
