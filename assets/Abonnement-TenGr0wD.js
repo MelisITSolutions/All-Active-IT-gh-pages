@@ -1,0 +1,1 @@
+import{n as e,t}from"./jsx-runtime-CdvZGgm7.js";e();var n=t(),r=()=>(0,n.jsxs)(`div`,{className:`state-page`,children:[(0,n.jsx)(`h1`,{children:`Abonnement`}),(0,n.jsx)(`p`,{children:`De abonnement pagina is nog niet geimplimenteerd. Kom later terug`})]});export{r as default};

@@ -1,0 +1,1 @@
+var e=e=>{if(e==null)return``;let t=String(e).replace(/\D/g,``);return t.length===11&&t.startsWith(`31`)?t=`0`+t.slice(2):t.length===9&&(t=`0`+t),t},t=t=>{let n=e(t);return n.length===10?`${n.slice(0,2)}-${n.slice(2,6)}-${n.slice(6)}`:n};export{t as n,e as t};
