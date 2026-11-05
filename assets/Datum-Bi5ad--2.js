@@ -1,0 +1,1 @@
+var e=e=>new Date(e).toLocaleDateString(`nl-NL`,{weekday:`short`});export{e as t};
