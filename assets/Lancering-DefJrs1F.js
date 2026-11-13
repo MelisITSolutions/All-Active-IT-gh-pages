@@ -1,0 +1,1 @@
+var e=`Aanmelden kan binnenkort. Wilt u als eerste op de hoogte zijn? Mail naar contact@all-active-it.com.`;export{e as t};

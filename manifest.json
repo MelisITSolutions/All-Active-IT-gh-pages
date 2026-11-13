@@ -21,6 +21,6 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#0c0c0c",
   "background_color": "#ffffff"
 }
