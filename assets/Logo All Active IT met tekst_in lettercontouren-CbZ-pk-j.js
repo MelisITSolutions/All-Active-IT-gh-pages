@@ -1,0 +1,1 @@
+var e=`/assets/Logo%20All%20Active%20IT%20met%20tekst_in%20lettercontouren-Bz4nK7f4.png`;export{e as t};
