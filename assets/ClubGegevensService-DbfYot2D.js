@@ -1,0 +1,1 @@
+import{S as e}from"./index-B1CDT0J1.js";var t=`https://mtbackend.fly.dev/api/v1/club/gegevens`,n={Haal(){return e.get(t)},Update(n){return e.put(t,n)},UpdateBetaalmail(n){return e.put(`${t}/betaalmail`,{betalingemail:n})}};export{n as t};
